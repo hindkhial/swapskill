@@ -32,7 +32,7 @@ const textVariants = cva(
         ),
         lead: 'text-muted-foreground text-xl',
         large: 'text-lg font-semibold',
-        small: 'text-sm font-medium leading-none',
+        small: 'text-sm leading-none font-medium',
         muted: 'text-muted-foreground text-sm',
       },
     },
@@ -69,8 +69,7 @@ function Text({
   asChild = false,
   variant = 'default',
   ...props
-}: React.ComponentProps<typeof RNText> &
-  React.RefAttributes<typeof RNText> &
+}: React.ComponentPropsWithRef<typeof RNText> &
   TextVariantProps & {
     asChild?: boolean;
   }) {

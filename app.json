@@ -1,15 +1,13 @@
 {
   "expo": {
-    "name": "minimal",
+    "name": "SwapSkill",
     "slug": "minimal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "minimal",
-    "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
